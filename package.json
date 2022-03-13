@@ -1,0 +1,21 @@
+{
+  "name": "desktop_to_do_list",
+  "version": "1.0.0",
+  "description": "simple to do list for desktop",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . ToDoList"
+  },
+  "author": "ProgrammerC11",
+  "license": "ISC",
+  "devDependencies": {
+    "electorn": "^0.0.1-security",
+    "electron": "^17.1.2",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "electron-builder": "^22.14.13"
+  }
+}
